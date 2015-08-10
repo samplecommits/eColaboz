@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eColaboz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="loginCaps">LOGIN</string>
+    <string name="registerCaps">REGISTER</string>
+    <string name="recoverCaps">RECOVER</string>
+    <string name="register">Register</string>
+    <string name="username">username</string>
+    <string name="recover_password">Recover Password</string>
+    <string name="password">password</string>
+    <string name="fname">first name</string>
+    <string name="lname">last name</string>
+    <string name="phone">phone number</string>
+    <string name="website">website</string>
+    <string name="address">address</string>
+    <string name="email">email</string>
+    <string name="zip">zip</string>
+    <string name="dealer">dealer name</string>
+    <string name="subscribe">subscribe to newsletter</string>
+    <string name="userType">Who are you ?</string>
+    <string name="forgot_password">Register Member</string>
+    <string name="recover_password_email">Enter email to recover password</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="project">Projects</string>
+    <string name="books">Accounts</string>
+    <string name="chama">Chama</string>
+    <string name="telephone">telephone number</string>
+    <string name="chama_info">Info</string>
+    <string name="chama_networth">Net-Worth</string>
+    <string name="chama_members">Members</string>
+
+    <string-array name="userLevels">
+        <item>Select User Level</item>
+        <item>Admin</item>
+        <item>Member</item>
+    </string-array>
+    
+    <string-array name="chamas">
+        <item>Select Chama</item>
+        <item>Chama 1</item>
+    </string-array>
+
+</resources>

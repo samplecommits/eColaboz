@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#20b2aa"
+    >
+
+    
+<RelativeLayout
+        android:id="@+id/appName"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#20b2aa"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp" 
+        android:paddingRight="7dp" 
+        > 
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_keyboard_backspace_white_48dp" />
+
+        <TextView
+            android:id="@+id/listingHeaderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal" 
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Chama Info"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" /> 
+
+
+        
+    </RelativeLayout>
+    
+    
+    
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:textColor="#FFF"
+    android:text="Chama 1 is a union  whose main aim is to empower it's member financially together with impacting knowledge through the various activities it undertakes"    
+   android:textStyle="bold"
+   android:layout_marginTop="35dp"
+   android:lineSpacingExtra="2sp"
+    />
+           
+
+
+</LinearLayout>
